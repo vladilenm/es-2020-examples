@@ -10,14 +10,14 @@ const end = 'This is new JavaScript features          '
 // ===========
 
 function tag(strings, name, age) {
-	const [s1, s2, s3] = strings
-	const ageStr = age > 42 ? 'старший' : 'младшим'
-	return `${s1}${name}${s2}${ageStr}${s3}`
+  const [s1, s2, s3] = strings
+  const ageStr = age > 42 ? 'старший' : 'младшим'
+  return `${s1}${name}${s2}${ageStr}${s3}`
 }
 
 const person = {
-	name: 'Максим',
-	age: 50
+  name: 'Максим',
+  age: 50
 }
 
 const output = tag`Человек по имени ${person.name} является ${person.age} в семье!`

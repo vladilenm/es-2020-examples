@@ -8,6 +8,6 @@ const p3 = Promise.resolve(3)
 // })()
 
 ;(async () => {
-	const result = await Promise.allSettled([p1, p2, p3])
-	console.log(result)
+  const result = await Promise.allSettled([p1, p2, p3])
+  console.log(result)
 })()
